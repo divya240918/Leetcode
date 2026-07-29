@@ -9,6 +9,17 @@ I created this repository to keep track of my progress, improve problem-solving 
 * Arrays
 * Strings
 
+## Topics To Be Covered
+* Linked List
+* Hashing
+* Stack
+* Queue
+* Recursion
+* Backtracking
+* Heap
+* Trees and Graphs
+* Dynamic Programming
+  
 ## Structure
 
 Problems are organized topic-wise to make revision easier and to track learning in a structured way.
