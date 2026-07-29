@@ -8,13 +8,6 @@ I created this repository to keep track of my progress, improve problem-solving 
 
 * Arrays
 * Strings
-* Linked Lists
-* Stacks
-* Queues
-* Trees
-* Graphs
-* Recursion & Backtracking
-* Dynamic Programming
 
 ## Structure
 
