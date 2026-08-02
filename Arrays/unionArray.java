@@ -12,19 +12,19 @@ public class unionArray {
         int j = 0;
         while (i < m && j < n) {
             if (arr1[i] < arr2[j]) {
-                if (union.isEmpty() || !union.contains(arr1[i])) {
+                if (!union.contains(arr1[i])) {
                     union.add(arr1[i]);
                 }
                 i++;
 
             } else if (arr2[j] < arr1[i]) {
-                if (union.isEmpty() || !union.contains(arr2[j])) {
+                if (!union.contains(arr2[j])) {
                     union.add(arr2[j]);
                 }
                 j++;
 
             } else {
-                if (union.isEmpty() || !union.contains(arr1[i])) {
+                if (!union.contains(arr1[i])) {
                     union.add(arr1[i]);
                     
                 }
@@ -34,7 +34,7 @@ public class unionArray {
         }
 
         while (i < m) {
-            if (union.isEmpty() || !union.contains(arr1[i])) {
+            if ( !union.contains(arr1[i])) {
                 union.add(arr1[i]);
                 
             }
@@ -42,7 +42,7 @@ public class unionArray {
         }
 
         while (j < n) {
-            if (union.isEmpty() || !union.contains(arr2[j])) {
+            if (!union.contains(arr2[j])) {
                 union.add(arr2[j]);
                 
             }
