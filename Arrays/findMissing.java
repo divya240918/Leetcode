@@ -3,9 +3,9 @@ public class findMissing {
 
         int actualSum = 0;
 
-        int n = arr.length;
+        int n = arr.length + 1;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < arr.length; i++) {
             actualSum += arr[i];
         }
 
@@ -17,7 +17,7 @@ public class findMissing {
     }
 
     public static void main(String[] args) {
-        int[] arr = {0, 1, 2, 3, 4, 5, 6, 8};
+        int[] arr = { 1, 2, 3, 4, 5, 6, 8};
 
         findMissing obj = new findMissing();
 
